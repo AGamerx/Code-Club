@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/courses.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+        <link rel="shortcut icon" href="img/Whitelogo1.png" type="image/x-icon" />
+        <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>CodeClubEG - Courses</title>
+</head>
+<body>
+    <div class="section">
+        <div class="layer"></div>
+        <div id="asidebarblur" onclick="closeNav()"></div>
+        <div id="mySidenav" class="sidenav">
+            <span class="material-symbols-outlined close" onclick="closeNav()">close</span>
+            <a><img class="sidebarlogo" src="img/BlackLogo1.png" alt=""></a>
+            <a class="sidebaritems" href="index.html">HOME</a>
+            <a class="sidebaritems" href="courses.html">COURSES</a>
+            <a class="sidebaritems" href="#">ABOUT US</a>
+            <a class="sidebaritems" href="index.html#ourpartners">PARTNERS</a>
+            <a class="sidebaritems" href="#">FEEDBACKS</a>
+            <a class="sidebaritems" href="#">CONTACT US</a>
+            <a class="sidebaritems" href="login.html"><button id="login"><span class="material-symbols-outlined loginuser">
+                person
+            </span>LOGIN</button></a>
+            <a href="#forgotpass" id="forgotpass">Forgot Your Password?</a>
+        </div>
+        <ul>
+            <li>
+                <img class="menu" src="img/menu.png" onclick="openNav()" alt="">
+            </li>
+            <li><img class="navimg" src="img/BlackLogo1.png" alt=""></li>
+        </ul>
+        <h1 class="title">OUR <i>COURSES</i></h1>
+        <div class="container">
+            <div class="col40">
+                <div class="dropdown">
+                    <div class="dropbtn"><img src="img/Untitled-2.png" alt="frontend">
+                        <div class="dropdown-content">
+                            <p class="dptext">Front-end web development, also known as client-side development is the practice of producing HTML, CSS and
+                                JavaScript for a website or Web Application so that a user can see and interact with them directly. The
+                                challenge associated with front end development is that the tools and techniques used to create the front end of
+                                a website change constantly and so the developer needs to constantly be aware of how the field is developing.
+                            </p>
+                            <img class="dropdownimg" src="img/front_end_icon.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col40">
+                <div class="dropdown">
+                    <div class="dropbtn"><img src="img/Untitled-2 BACKEND.png" alt="frontend">
+                        <div class="dropdown-content">
+                            <p class="dptext">Front-end web development, also known as client-side development is the practice of producing HTML,
+                                CSS and
+                                JavaScript for a website or Web Application so that a user can see and interact with them directly.
+                                The
+                                challenge associated with front end development is that the tools and techniques used to create the
+                                front end of
+                                a website change constantly and so the developer needs to constantly be aware of how the field is
+                                developing.
+                            </p>
+                            <img class="dropdownimg" src="img/front_end_icon.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col40">
+                <div class="dropdown">
+                    <div class="dropbtn"><img src="img/Untitled-1-Recovered.png" alt="frontend">
+                        <div class="dropdown-content">
+                            <p class="dptext">Front-end web development, also known as client-side development is the practice of producing HTML,
+                                CSS and
+                                JavaScript for a website or Web Application so that a user can see and interact with them directly.
+                                The
+                                challenge associated with front end development is that the tools and techniques used to create the
+                                front end of
+                                a website change constantly and so the developer needs to constantly be aware of how the field is
+                                developing.
+                            </p>
+                            <img class="dropdownimg" src="img/front_end_icon.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col40">
+                <div class="dropdown">
+                    <div class="dropbtn"><img src="img/Untitled-1-Solving.png" alt="frontend">
+                        <div class="dropdown-content">
+                            <p class="dptext">Front-end web development, also known as client-side development is the practice of producing HTML,
+                                CSS and
+                                JavaScript for a website or Web Application so that a user can see and interact with them directly.
+                                The
+                                challenge associated with front end development is that the tools and techniques used to create the
+                                front end of
+                                a website change constantly and so the developer needs to constantly be aware of how the field is
+                                developing.
+                            </p>
+                            <img class="dropdownimg" src="img/front_end_icon.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function openNav() {
+            document.getElementById("asidebarblur").style.visibility = "visible";
+            document.getElementById("mySidenav").style.width = "400px";
+            document.getElementById("mySidenav").style.display = "flex";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("asidebarblur").style.visibility = "hidden";
+        }
+    </script>
+</body>
+</html>

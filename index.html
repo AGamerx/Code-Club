@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="img/BlackLogo1.png" type="image/x-icon" />
+    <title>CodeClub EG</title>
+  </head>
+  <body>
+    <div class="section1">
+      <ul>
+        <li class="logo">
+          <li class="navimg"><img src="img/BlackLogo1.png" alt="" /></li>
+          <li class="texticon">
+            <h1 style="margin-bottom: 0">Code Club</h1>
+            <p>From Youth to Youth</p>
+          </li>
+        </li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="courses.html">COURSES</a></li>
+        <li><a href="rules.html">RULES</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li class="login">
+          <a href="login.html" target="_blank"><span class="material-symbols-outlined"> person </span>LOGIN</a>
+        </li>
+      </ul>
+      <div class="container1">
+        <div class="col11">
+          <img class="c1img" src="img/s1bgcrop.png" alt="" />
+        </div>
+        <div class="col12">
+          <p>
+            Front-End <br />
+            Bootcamp <b style="color: rgb(250, 213, 75)">2</b> <br />
+            Starting <br />
+            Soon
+          </p>
+          <button><img src="img/Whitelogo1.png" alt="" />GET STARTED</button>
+        </div>
+      </div>
+    </div>
+    <div class="section2">
+      <div class="container2">
+        <div>
+          <h1 class="col21">
+            Our Main <br />
+            <i style="color: yellow"> Course </i>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="section3">
+      <div class="container3">
+        <img src="img/Untitled-2.png" class="frontendimg" />
+       <center> <a href="Frontend.html" target="_blank"><button class="buttonbelowfront">More About</button></a></center>
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <img src="img/carousel1.png" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/carousel2.jpg" style="width: 100%" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/carousel3.jpg" style="width: 100%" />
+          </div>
+          <div class="mySlides fade">
+            <img src="img/carousel4.jpg" style="width: 100%" />
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <script>
+          let slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+            showSlides((slideIndex += n));
+          }
+
+          function currentSlide(n) {
+            showSlides((slideIndex = n));
+          }
+
+          function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+              slideIndex = 1;
+            }
+            if (n < 1) {
+              slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+          }
+        </script>
+      </div>
+    </div>
+
+    <div class="section4">
+      <div class="container4">
+        <img
+          src="img/3259376_facebook_media_social_icon.png"
+          class="frontendimg"/>
+        <div class="fbtitle">
+          Our latest Articles <br />
+          <div class="fb">on Facebook</div>
+        </div>
+      </div>
+      <div class="container-80">
+        <div class="col12">
+          <div class="fbposts" style="background-image: url('img/Code club money copy.psd2 copy.png');">
+          </div>
+        </div>
+        <div class="col12">
+          <div class="fbposts" style="background-image: url('img/CODE CLUB CAMPAIGN 2 HORROR copy.png');">
+          </div>
+        </div>
+        <div class="col12">
+          <div class="fbposts" style="background-image: url('img/CODE CLUB CAMPAIGN 3 HORROR copy.png');">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section6">
+      <div class="container6">
+        <h1 id="ourpartners">Our <span style="color: blue">Partners</span></h1>
+        <div class="container-80">
+          <div class="col20">
+            <div class="partners" style="background-image: url('img/Code club partner copy.png');">
+            </div>
+            <div class="partnerstitles">
+              <p>ICONS</p>
+            </div>
+          </div>
+          <div class="col20">
+            <div class="partners" style="background-image: url('img/Code club partner copy.png2.png');">
+            </div>
+            <div class="partnerstitles">
+              <p>The OFFICE</p>
+            </div>
+          </div>
+          <div class="col20">
+            <div class="partners" style="background-image: url('img/Code club partner.png3.png');">
+            </div>
+            <div class="partnerstitles">
+              <p>ACM</p>
+            </div>
+          </div>
+          <div class="col20">
+            <div class="partners" style="background-image: url('img/Code club partner copy.png4.png');">
+            </div>
+            <div class="partnerstitles">
+              <p>Alex Target</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section7">
+      <ul>
+        <li><img src="img/CODE CLUB LOGO.png2.png" alt="" /></li>
+        <li class="Tracks">
+          <h1 class="Tracks1">Tracks</h1>
+          <br />
+          <p>
+            <a class="links" target="_blank" href="courses.html">Frontend</a>
+            <br />
+            <a class="links" target="_blank" href="courses.html">Backend</a>
+            <br />
+            <a class="links" target="_blank" href="courses.html">Software Testing</a>
+            <br />
+            <a class="links" target="_blank" href="courses.html">C / Problem Solving</a>
+          </p>
+        </li>
+        <li class="Contact">
+          <h1 class="Tracks1">Contact</h1>
+          <br />
+          <p>
+            Alexandria &#x1F1EA;&#x1F1EC;
+            <br />
+            01028791202
+            <br />
+            codecluboc1@gmail.com
+          </p>
+        </li>
+        <li class="Partners">
+          <h1 class="Tracks1">Partners</h1>
+          <br />
+          <p>
+            <a class="links" target="_blank" href="https://www.facebook.com/icons.space7"
+              >ICONs</a
+            >
+            <br />
+            <a
+              class="links" target="_blank"
+              href="https://www.facebook.com/TheOfficeCoWorkingSpace"
+              >The Office</a
+            >
+            <br />
+            <a class="links" target="_blank" href="https://www.facebook.com/AlexTarget.Net"
+              >Alex target
+            </a>
+            <br />
+            <a class="links" target="_blank" href="https://www.facebook.com/PUA.acmSC">ACM</a>
+          </p>
+        </li>
+        <li class="Social">
+          <h1 class="Tracks1">
+            Social <br />
+            Media
+          </h1>
+          <br />
+          <p>
+            <a class="links" target="_blank" href="https://www.facebook.com/codeClubAlexEG"
+              >Facebook</a
+            >
+            <br />
+            <a class="links" target="_blank" href="https://www.instagram.com/codeclub_eg/"
+              >Instagram</a
+            >
+            <br />
+            <a class="links" target="_blank" href="https://www.linkedin.com/company/codeclubeg/"
+              >Linkedin</a
+            >
+            <br />
+            <a
+              class="links" target="_blank"
+              href="https://api.whatsapp.com/send/?phone=%2B201028791202&text&type=phone_number&app_absent=0"
+              >Whatsapp</a
+            >
+          </p>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

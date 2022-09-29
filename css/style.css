@@ -1,0 +1,694 @@
+* {
+  box-sizing: border-box;
+}
+.section1 {
+  height: fit-content;
+  padding-bottom: 30px;
+  background-image: url("../img/Section1bg.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container1 {
+  display: flex;
+  margin-right: 50px;
+}
+.col11 {
+  width: 67%;
+  padding-top: 70px;
+}
+.col12 {
+  width: 30%;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+}
+.fbposts{
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  margin-top: 60px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.container-80{
+  width: 80%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+.col12 p {
+  font-size: 5vw;
+  margin-bottom: 16px;
+}
+.col12 button {
+  background-color: rgb(215, 111, 206);
+  border: none;
+  border-radius: 100px;
+  width: 250px;
+  height: 75px;
+  color: white;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-weight: 900;
+  letter-spacing: 0.13em;
+  font-size: 13px;
+  cursor: pointer;
+  padding: 10px;
+  transition:background-color 0.2 ;
+  -webkit-transition:background-color 0.2s;
+  -moz-transition:background-color 0.2s;
+  -ms-transition:background-color 0.2s;
+  -o-transition:background-color 0.2s;
+}
+.col12 button:hover {
+  background-color: rgb(26, 22, 22);
+  outline: 3px solid white;
+}
+.col12 button img {
+  height: 75%;
+  vertical-align: middle;
+}
+.c1img {
+  width: 100%;
+  height: 100%;
+}
+.section1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  flex-direction: row;
+  border-radius: 0px 0px 40px 40px;
+  height: 3.7%;
+  align-items: center;
+}
+
+.section1 li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 40px 20px 40px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+li a{
+  transition: 0.6s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+li a:hover:not(.active) {
+  color: #aaa9a9;
+}
+
+.navimg {
+  position: absolute;
+  left: 15px;
+}
+
+.navimg img {
+  height: 65px;
+  vertical-align: middle;
+  padding-bottom: 10%;
+  padding-left: 10%;
+}
+
+.texticon {
+  position: absolute;
+  left: 110px;
+  line-height: 11px;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: 11px;
+}
+
+.login {
+  position: absolute;
+  right: 20px;
+}
+
+.login .material-symbols-outlined {
+  font-size: 24px;
+  padding-right: 10px;
+}
+.section2 {
+  height: 50vh;
+  background-image: url("../img/sec2bg.jpg");
+  background-size: cover;
+  filter: grayscale(65%);
+  -webkit-filter: grayscale(65%);
+  box-shadow: 2px 2px 20px #333232;
+}
+.sec2bg {
+  height: 100%;
+  width: 100%;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  font-size: 5vw;
+  font-family: "Poppins", sans-serif;
+}
+.container2 h1 i {
+  letter-spacing: 0.1em;
+}
+.col21 {
+  width: 100%;
+  color: white;
+}
+.section1 li a{
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 40px 20px 40px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  color: #aaa9a9;
+}
+.login .material-symbols-outlined {
+  font-size: 25px;
+  padding-right: 10px;
+}
+.section3 {
+  height: 125vh;
+  background-image: url("../img/Evening Night.jpg");
+  background-size: cover;
+}
+.container3 {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.frontendimg {
+  height: 25vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.buttonbelowfront {
+  background-color: rgb(215, 111, 206);
+  border: none;
+  border-radius: 100px;
+  width: 250px;
+  height: 75px;
+  color: white;
+  text-align: center;
+  font-family: "Press Start 2P";
+  font-weight: 900;
+  letter-spacing: 0.13em;
+  font-size: 13px;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  transition: background-color 0.2s;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  -ms-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+}
+.buttonbelowfront a{
+  text-decoration: none;
+  color: white;
+  font-family: "Press Start 2P";
+}
+.container3 .buttonbelowfront:hover {
+  background-color: rgb(26, 22, 22);
+  outline: 3px solid white;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  background-color: rgb(0, 0, 0, 0.4);
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  -ms-border-radius: 0 3px 3px 0;
+  -o-border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 80px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 20px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.section4 {
+  height: 125vh;
+  background-image: url("../img/Lawrencium.jpg");
+  background-size: cover;
+}
+
+.container4 {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.fbtitle{
+  font-family: "Poppins", sans-serif;
+  font-size: 10vh;
+  margin-bottom: 16px;
+  color:white;
+  font-weight:bold;
+  width:55vw;
+  margin:auto;
+  text-align: center;
+}
+.fb{
+    color:lightseagreen
+}
+.section5{
+background-image: url('../img/Linked\ in\ wallpaper.png');
+background-size: cover;
+width: 100%;
+height: 35vh;
+}
+.section6{
+  height: 100vh;
+  width: 100%;
+  background-image: url("../img/27525.png");
+  background-size: cover;
+}
+.container6{
+  display: flex;
+  justify-content: center;
+  color:white;
+  flex-direction: column;
+  text-align: center;
+}
+.col20{
+  width: 20%;
+}
+.section7 ul li{
+  width: 20%;
+}
+.section7 ul{
+  display: flex;
+  align-content: center;
+}
+.partners{
+  height: 300px;
+  background-size: cover;
+  width: 100%;
+  border-radius:30% 25%;
+  -moz-border-radius:30% 25%;
+  -ms-border-radius:30% 25%;
+  -o-border-radius:30% 25%;
+  box-shadow: 2px 2px 20px rgb(65, 63, 63);
+  margin-bottom: 50px;
+  -webkit-border-radius:30% 25%;
+}
+.container6 h1{
+font-weight: bolder;
+font-size: 150px;
+font-family: "Poppins";
+}
+.section7{
+height:25vh;
+width:100%;
+/* background-image: url("../img/27525.png"); */
+
+}
+.section7 ul {
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  flex-direction: row;
+  box-shadow: 0px -10px 10px -10px black;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.section7 ul img {
+  width: 200px;
+}
+.section7 ul li {
+  text-align: center;
+}
+.Tracks{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.Contacts{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.Partners{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.Social{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.section7 ul li p {
+  color: #717171;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 8px;
+}
+.Tracks1{
+  font-family: 'Rubik Mono One', sans-serif;
+  display: inline;
+}
+.links {
+  text-decoration: none;
+}
+.links:visited{
+  color: #717171;
+}
+/* .container7{
+display:flex;
+flex-direction:row ;
+justify-content: left;
+align-items: center;
+}
+.col71 {
+  width: 20%;
+}
+.col71 img {
+  width: 70%;
+  
+} */
+div[class*="section"]{
+  height: fit-content;
+  padding-bottom: 50px;
+}
+.partnerstitles p{
+  font-family: 'Anton';
+  font-size: 30px;
+  letter-spacing: 0.12em;
+  color: rgb(59, 8, 57);
+}
+
+@media screen and (max-width: 750px) {
+  .section1 .col12 button{
+    width:150px;
+    font-size:9px;
+    height: 40px;
+  }
+  .col12 button img{
+    height: 60%;
+  }
+  .col20{
+    width: 100%;
+  }
+  .container-80{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width:1440px){
+  .section1 ul li a{
+    font-size: 15px;
+  }
+  .login .material-symbols-outlined{
+    font-size: 20px;
+  }
+  .texticon h1{
+    font-size: 20px;
+  }
+  .texticon p{
+    font-size: 10px;
+  }
+  .col20{
+    width: 40%;
+  }
+  .container-80{
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width:1250px) {
+  .section1 ul li a {
+    font-size: 13px;
+  }
+  .section7 ul a, p{
+    font-size: 15px;
+  }
+  .section7 ul>li>img{
+    height: 100px;
+    width: 100px;
+  }
+  .section7 ul{
+    height: fit-content;
+    padding-top: 20px;
+  }
+  .section7 ul h1 {
+    font-size: 20px;
+  }
+  .login .material-symbols-outlined {
+    font-size: 15px;
+  }
+
+  .texticon h1 {
+    font-size: 15px;
+  }
+
+  .texticon p {
+    font-size: 7px;
+  }
+  .navimg img{
+    height: 50px;
+  }
+  .navimg {
+    position: absolute;
+    left: 20px;
+  }
+}
+@media screen and (max-width:1080px) {
+  .section1 ul li a {
+    font-size: 8px;
+    padding:20px;
+  }
+
+  .login .material-symbols-outlined {
+    font-size: 9px;
+  }
+
+  .texticon h1 {
+    font-size: 10px;
+  }
+
+  .texticon p {
+    font-size: 5px;
+  }
+
+  .navimg img {
+    height: 40px;
+  }
+
+  .navimg {
+    position: absolute;
+    left: 50px;
+  }
+}
+@media screen and (max-width:750px) {
+  .section1 ul li a {
+    font-size: 5px;
+    padding: 10px;
+  }
+
+  .login .material-symbols-outlined {
+    font-size: 7px;
+  }
+
+  .texticon h1 {
+    font-size: 7px;
+  }
+
+  .texticon p {
+    font-size: 4px;
+  }
+
+  .navimg img {
+    height: 30px;
+  }
+  .navimg {
+    position: absolute;
+    left: 60px;
+  }
+}
+@media screen and (max-width:580px) {
+  .texticon{
+    position: absolute;
+    left: 60px;
+  }
+  .navimg {
+    position: absolute;
+    left: 20px;
+  }
+}
+@media screen and (max-width:480px) {
+  .texticon {
+    position: absolute;
+    left: 45px;
+  }
+  .section1 ul li a {
+    font-size: 5px;
+    padding: 6px 15px 6px 15px;
+  }
+  .login .material-symbols-outlined {
+    font-size: 6px;
+  }
+  .navimg {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+  }
+  .navimg img{
+    height: 15px;
+  }
+  .texticon h1 {
+    font-size: 6px;
+    line-height: 1px;
+  }
+
+  .texticon p {
+    font-size: 3px;
+  }
+}
+@media screen and (max-width: 690px){
+  .col20 {
+      width: 100%;
+    }
+    .container-80 {
+      flex-wrap: wrap;
+    }
+    .section7 ul li p, .section7 ul li a{
+      font-size: 10px;
+      line-height: 14px;
+    }
+    .section7 ul li>h1{
+      font-size: 12px;
+    }
+    .section7 ul>li>img {
+      height: 40px;
+      width: 40px;
+      position: absolute;
+      left: 10px;
+    }
+}
+@media screen and (max-width:630px){
+  .section7 ul>li>img {
+      display: none;
+    }
+    #ourpartners{
+      font-size: 50px;
+    }
+    .fbtitle{
+      font-size: 50px;
+    }
+    .section4 .col12{
+      width: 100%;
+    }
+}
+@media screen and (max-width:550px){
+  .Partners{
+    margin:0;
+    margin-left: 40px;
+  }
+  .Social{
+    margin:0;
+    margin-left: 20px;
+  }
+  .Tracks{
+    padding:0;
+  }
+  .section7 ul{
+    padding-top:10;
+    justify-content: space-between;
+  }
+  .section7 ul>li>img{
+    display: none;
+  }
+}
